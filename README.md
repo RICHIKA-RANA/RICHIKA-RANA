@@ -1,7 +1,6 @@
 ### Hi👋,I'm RICHIKA!👩‍💻
 <br>
-<b> I'm a 2nd year student at Sant Longowal Institute of Engineering & Technology, Punjab pursuing bachelor in Electronics & Communication Engineering. 
-Tech Geek, I love to explore new technologies. <b/>
+<b> I'm a prefinal year undergrad student at Sant Longowal Institute of Engineering & Technology pursuing in Electronics & Communication Engineering.<b/>
 <br/>
 <p>
 <h2>Connect with me: </h2>
