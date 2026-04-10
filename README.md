@@ -1,7 +1,7 @@
 ### Hi👋,I'm RICHIKA!👩‍💻
-<br>
-<!-- <b> I'm a prefinal year undergrad student at Sant Longowal Institute of Engineering & Technology.<b/> -->
-<br/>
+<!-- <br>
+<b> I'm a prefinal year undergrad student at Sant Longowal Institute of Engineering & Technology.<b/>
+<br/> -->
 <p>
 <h2>Connect with me: </h2>
 <a href="https://www.linkedin.com/in/richikarana">
