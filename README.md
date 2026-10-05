@@ -59,14 +59,13 @@ rather it was me.
 
 ### 📚 Before this
 
-**Wikimedia Foundation, Platform Engineering** — one of 8 interns picked worldwide from 15,000+ applicants. Six
+**Wikimedia Foundation, Platform Engineering**: one of 8 interns picked worldwide from 15,000+ applicants. Six
 merged Gerrit patches deprecating VirtualRestService across
 [Collection](https://phabricator.wikimedia.org/T336735) and [Flow](https://phabricator.wikimedia.org/T337223),
 1,000+ lines of dead code gone, and a [script warming the Parsoid
-cache](https://phabricator.wikimedia.org/T338922) shipped in MW 1.41.0-wmf.16. Deleting code in a codebase
-Wikipedia runs on teaches you to read first and type later.
+cache](https://phabricator.wikimedia.org/T338922) shipped in MW 1.41.0-wmf.16.
 
-**eRaktKosh at C-DAC** — Java backend for India's national blood-bank platform, live across 34 States and UTs.
+**eRaktKosh at C-DAC**: Java backend for India's national blood-bank platform, live across 34 States and UTs.
 
 **[BookCart](https://github.com/RICHIKA-RANA/BookCart)** in PHP and
 **[VirusGame](https://richika-rana.github.io/VirusGame/)** in plain JavaScript, 2021. Leaving
