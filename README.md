@@ -14,6 +14,8 @@ A 100-page report where the answer sits in one cell of one table. A document tha
 out redacted and still look like itself. A pipeline that took six hours and had no business
 taking more than thirty.
 
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/hero.png" width="330" alt="scattered documents resolving into one answer" /></p>
+
 Backend, three years of it. Retrieval, ingestion, and the jobs that have to survive a restart.
 
 ---
@@ -22,6 +24,8 @@ Backend, three years of it. Retrieval, ingestion, and the jobs that have to surv
 
 Ask a long document a question and most systems embed the whole thing, then hope the nearest
 vector happens to be the right one.
+
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/ttt-tree.png" width="330" alt="a document opening into text, table and figure nodes, converging on an answer" /></p>
 
 This one doesn't. It walks a tree of sections, tables and figures, so every answer has an
 address. I own retrieval and ingestion. The published benchmark is **more than 90% fewer LLM
@@ -39,6 +43,8 @@ resolves to a cell instead of a page.
 Before you can retrieve anything you have to admit what a document really is: half-merged table
 cells, headings that are only bold text, paragraphs with no style attached at all.
 
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/elementizer.png" width="320" alt="a pile of pages becoming a typed, ordered list of elements" /></p>
+
 This reads one and turns it into structured JSON. Every element classified by type, and
 provenance carried all the way through so an answer can point back at where it came from. I
 added PDF to a pipeline that had only ever spoken DOCX, which was mostly making peace with
@@ -51,6 +57,8 @@ irregular grids.
 ### 🔗 [package-named-entity-linker](https://github.com/TalkingDB/package-named-entity-linker)
 
 In regulatory writing the same word is rarely the same thing twice.
+
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/entities.png" width="340" alt="ambiguous terms resolving into a graph of canonical entities" /></p>
 
 So a term gets resolved against the rest of the document and a Wikibase knowledge base, rather
 than guessed at in isolation. On the medical-writing platform this sat under, placeholder
@@ -74,12 +82,15 @@ answer from a retrieved document instead of from memory.
 
 ### 🚢 The unglamorous half
 
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/restart.png" width="340" alt="a pipeline stepping through a document, with a dashed path back to where it stopped" /></p>
+
 [**sdk-talkingdb**](https://github.com/TalkingDB/sdk-talkingdb) is the surface everything else
 talks to, which makes it the one place a bad decision stays expensive.
 [**infra-tdb-platform**](https://github.com/TalkingDB/infra-tdb-platform) is local setup, repo
 orchestration and deploys: GKE with YAML manifests through GitLab CI, later Bitbucket Pipelines.
 
-Somebody has to own the restart path. I'd rather it was me.
+Conversion is resumable and retries are race-safe, so a job restarts from the last batch it
+finished rather than from the top. Somebody has to own the restart path. I'd rather it was me.
 
 `Python` · `Shell` · `Kubernetes` · `GKE`
 
