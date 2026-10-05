@@ -33,19 +33,6 @@ provenance riding along, and learned PDF after a lifetime of speaking only DOCX.
 
 ---
 
-### 🔗 [package-named-entity-linker](https://github.com/TalkingDB/package-named-entity-linker)
-
-In regulatory writing the same word is rarely the same thing twice.
-
-<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/entities-context.png" width="380" alt="the same term resolving to different entities depending on surrounding context" /></p>
-
-So a term resolves against the rest of the document and a Wikibase knowledge base rather than in isolation.
-Close to 90% resolution accuracy on the medical-writing platform it sat under.
-
-`Python` · `Wikibase` · `NER`
-
----
-
 ### 🤖 [flowbot-framework](https://github.com/TalkingDB/flowbot-framework)
 
 An agent is only as good as the tools you hand it, and a confident answer with no source is worse than no
