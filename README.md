@@ -1,5 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/richikarana/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:richikarana18@gmail.com">richikarana18@gmail.com</a> &nbsp;·&nbsp;
   Bengaluru, India
 </p>
 
