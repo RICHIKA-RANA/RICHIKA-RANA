@@ -9,14 +9,14 @@ system can answer it, with its reasons attached. A 100-page report where the ans
 table. A document that has to come out redacted and still look like itself. A pipeline that took six hours and
 had no business taking more than thirty.
 
-<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/hero.png" width="420" alt="scattered material resolving through a structured element into one answer" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/hero-wide.png" width="420" alt="scattered material resolving through a structured element into one answer" /></p>
 
 ---
 
 ### 🌳 [module-ttt](https://github.com/TalkingDB/module-ttt) · 🧩 [package-content-elementizer](https://github.com/TalkingDB/package-content-elementizer)
 
 <table>
-<tr><td width="55%" align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/ttt-tree.png" width="420" alt="a path descending through document, section, table and row to one cell" /></td><td width="45%" align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/elementizer.png" width="290" alt="a pile of pages becoming a typed, ordered list of elements" /></td></tr>
+<tr><td width="55%" align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/ttt-path.png" width="420" alt="a path descending through document, section, table and row to one cell" /></td><td width="45%" align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/elementizer.png" width="290" alt="a pile of pages becoming a typed, ordered list of elements" /></td></tr>
 <tr><td align="center"><em>Where exactly is the answer?</em></td><td align="center"><em>What is this document made of?</em></td></tr>
 </table>
 
@@ -37,7 +37,7 @@ provenance riding along, and learned PDF after a lifetime of speaking only DOCX.
 
 In regulatory writing the same word is rarely the same thing twice.
 
-<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/entities.png" width="380" alt="the same term resolving to different entities depending on surrounding context" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/entities-context.png" width="380" alt="the same term resolving to different entities depending on surrounding context" /></p>
 
 So a term resolves against the rest of the document and a Wikibase knowledge base rather than in isolation.
 Close to 90% resolution accuracy on the medical-writing platform it sat under.
@@ -58,7 +58,7 @@ a retrieved document instead of from memory.
 
 ### 🚢 The unglamorous half
 
-<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/restart.png" width="380" alt="work interrupted, state saved, and the run resuming from where it stopped" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/restart-resume.png" width="380" alt="work interrupted, state saved, and the run resuming from where it stopped" /></p>
 
 [**sdk-talkingdb**](https://github.com/TalkingDB/sdk-talkingdb) is the surface everything else talks to, which
 makes it the one place a bad decision stays expensive.
