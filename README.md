@@ -15,7 +15,7 @@ A 100-page report where the answer sits in one cell of one table. A document tha
 out redacted and still look like itself. A pipeline that took six hours and had no business
 taking more than thirty.
 
-<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/hero.png" width="330" alt="scattered documents resolving into one answer" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/RICHIKA-RANA/RICHIKA-RANA/main/art/hero.png" width="300" alt="an answer resting on the element, page and fragments it came from" /></p>
 
 Backend, three years of it. Retrieval, ingestion, and the jobs that have to survive a restart.
 
